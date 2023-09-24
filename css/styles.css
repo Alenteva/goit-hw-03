@@ -194,14 +194,7 @@ img {
   gap: 24px;
 }
 .advantages-list-item {
-  width: calc((100%-72px) / 4);
-}
-.advantages-list-item {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  margin-left: 15px;
-  margin-right: 15px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advantages-item-name {
