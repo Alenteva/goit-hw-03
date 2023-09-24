@@ -116,10 +116,12 @@ color:#2e2f42;
 .contacts-item:hover,.contacts-item:focus{
   color: #404BBF;
 }
+.section-one{
+  padding: 188px 0;
+  background: var(--NAVY-BLUE, #2E2F42);
+}
 
 .container.section-one-container{
-  background: var(--NAVY-BLUE, #2E2F42);
-  padding: 188px 0;
  padding-left: 15px;
   display: block;
   flex-direction: column;
@@ -167,8 +169,10 @@ color:#2e2f42;
 .section-one-button:focus{
   background: #404BBF;
 }
-.container.advantages-container{
+.advantages{
   padding: 120px 0;
+}
+.container.advantages-container{
   margin: 0 auto;
 }
 .visually-hidden{
@@ -180,7 +184,7 @@ color:#2e2f42;
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0000);
+  clip:rect(0 0 0 0);
   overflow: hidden;
 }
 .advantages-list{
@@ -211,10 +215,12 @@ color:#2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.section-team{
+  padding: 120px 0;
+  background: var(--CLOUD, #F4F4FD);
+}
 .container.section-team-container{
   background: var(--CLOUD, #F4F4FD);
-padding: 120px 0;
   padding-left: 15px;
   padding-right: 15px;
     flex-shrink: 0;
@@ -271,8 +277,10 @@ padding: 120px 0;
     text-align: center;
 }
 .container.section-portfolio-container{
+}
+.section-portfolio{
   padding-top: 120px;
- padding-bottom: 120px;
+   padding-bottom: 120px;
 }
 .section-portfolio-title{
   color: var(--NAVY-BLUE, #2E2F42);
@@ -323,10 +331,12 @@ padding: 120px 0;
       letter-spacing: 0.02em;
      
 }
+.footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+      padding: 100px 0;
+}
 .container.footer-container{
-  background: var(--NAVY-BLUE, #2E2F42);
-  padding: 100px 0;
-   padding-left: 15px;
+    padding-left: 15px;
     flex-shrink: 0;
 }
 .footer-logo{
