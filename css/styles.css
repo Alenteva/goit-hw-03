@@ -41,28 +41,31 @@ img{
   background: var(--WHITE, #FFF);
   color: var(--NAVY-BLUE, #2E2F42);
   display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
- .container .heder-navigation{
-  display: flex;
+.container .heder-navigation{
+ display: flex;
  padding-left: 15px;
  padding-right: 15px;
  margin:0 auto;
+ width: 1158px;
+
 }
  .menu{
   display: flex;
   align-items: center;
-    gap: 40px;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-list{
   display: flex;
   margin-right:332px;
   gap: 40px;
 }
-.contacts .contacts-list{
+.contacts{
   display: flex;
  align-items: center;
  gap: 40px
@@ -82,8 +85,6 @@ img{
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .studio{
 color:#2e2f42; 
